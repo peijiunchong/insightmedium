@@ -5,11 +5,11 @@ const Pin = ({pin}) => {
   console.log(pin);
   return (
     <div>
-      {/* <img 
-        src={urlFor(pin?.image).width(100).url()} 
+      <img 
+        src={urlFor(pin?.image).url()} 
         alt="user-post" 
         className='rounded-lg w-full'
-      /> */}
+      />
     </div>
   )
 }
