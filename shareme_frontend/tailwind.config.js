@@ -88,7 +88,9 @@ module.exports = {
   },
   variants: {
     // backgroundColor: ['active'],
-    extend: {},
+    extend: {
+      display: ['group-hover']
+    },
   },
   plugins: [],
 };
